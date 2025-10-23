@@ -84,14 +84,21 @@ plt.show()
 
 ### 📊 Example Output
 ```sql
-Final weights: [0.75 0.63 0.74]
-Final bias: 0.52
+Final weights: [0.58088278 0.5854511  0.85592962]
+Final bias: 0.007537626110254033
 
 Comparison between actual and predicted:
    Actual  Predicted
-0     152     151.97
-1     185     185.03
-2     180     179.52
-3     196     195.88
-4     142     142.12
+0     152     153.44
+1     185     185.15
+2     180     182.02
+3     196     198.74
+4     142     140.97
+5     101     104.80
+6     149     149.32
+7     115     111.45
+8     175     173.83
+9     164     162.20
 ```
+<img width="521" height="347" alt="image" src="https://github.com/user-attachments/assets/7dc20cd8-233a-4ab6-87fa-db877c921995" />
+
