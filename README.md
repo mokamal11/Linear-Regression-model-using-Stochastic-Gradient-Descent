@@ -102,3 +102,29 @@ Comparison between actual and predicted:
 ```
 <img width="521" height="347" alt="image" src="https://github.com/user-attachments/assets/7dc20cd8-233a-4ab6-87fa-db877c921995" />
 
+# 10 Machine Learning Optimizers (one-line explanations)
+
+1. **Stochastic Gradient Descent (SGD)** — Updates parameters using the gradient of a single (or small) sample each step; simple and memory-efficient but can be slow and noisy.
+
+2. **Mini-batch SGD** — A compromise between SGD and batch gradient descent that updates using small batches for stability and speed.
+
+3. **Momentum** — Accelerates convergence by accumulating an exponentially decayed sum of past gradients to smooth updates.
+
+4. **Nesterov Accelerated Gradient (NAG)** — A variant of momentum that computes the gradient after a look-ahead step for improved convergence.
+
+5. **Adagrad** — Adapts learning rates per-parameter based on historical squared gradients; good for sparse data but learning rate decays heavily.
+
+6. **RMSprop** — Improves Adagrad by using an exponential moving average of squared gradients to prevent aggressive decay.
+
+7. **Adadelta** — Extension of Adagrad that restricts the window of accumulated past gradients and eliminates a default learning rate.
+
+8. **Adam (Adaptive Moment Estimation)** — Combines momentum and RMSprop ideas: adaptive per-parameter learning rates with momentum-like first and second moment estimates.
+
+9. **AdamW** — Adam variant that decouples weight decay from the gradient-based update for better regularization behavior.
+
+10. **Nadam** — Adam optimizer enhanced with Nesterov momentum for potentially faster and more stable convergence.
+
+---
+
+*Short note:* These optimizers differ mainly in how they scale step sizes and use past gradients; choice depends on problem, data sparsity, and model architecture.
+
