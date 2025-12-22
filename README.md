@@ -221,30 +221,6 @@ Where:
 
 ---
 
-## 💡 Key Learnings
-
-1. ✅ Built linear regression **from scratch** without ML libraries
-2. ✅ Understood **gradient descent** mathematically
-3. ✅ Learned the importance of **feature scaling**
-4. ✅ Visualized regression performance professionally
-5. ✅ Implemented **batch gradient descent** optimization
-6. ✅ Evaluated models using **R² metric**
-
----
-
-## 🚀 Future Improvements
-
-- [ ] Add **Stochastic Gradient Descent (SGD)** implementation
-- [ ] Add **Mini-batch Gradient Descent** comparison
-- [ ] Implement **train/test split** for validation
-- [ ] Add **MSE and RMSE metrics** display
-- [ ] Compare convergence speed of different optimizers
-- [ ] Add **learning rate decay** scheduling
-- [ ] Implement **regularization (L1/L2)** to prevent overfitting
-- [ ] Add **cross-validation** for robust evaluation
-
----
-
 ## 📊 Comparison: Batch vs SGD vs Mini-batch
 
 | Aspect | Batch GD | SGD | Mini-batch GD |
